@@ -2,8 +2,8 @@ from dash import Dash, html, dcc
 from dash.dependencies import Input, Output
 import dash_bootstrap_components as dbc
 from dash import Dash
-import plotly.express as px
 import pandas as pd
+import plotly.express as px
 import numpy as np
 
 df = pd.read_csv("Inmuebles_data_studio.csv",skipinitialspace = True)
